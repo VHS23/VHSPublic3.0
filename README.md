@@ -15,7 +15,7 @@ hdiutil convert Rootfs.dmg -format UDRW -o RootfsRW.dmg
 Once its a read and write then use the different contents for different parts of your terminal. Example,
 
 Place this in your plugins folder if you are using Terminal Template 1.0 (Link Not Availble Build Your Self).  Then attach it to the main system file by adding this line of code,
-
+```
 import [VHS] from '../plugins/vhs';
 
 ..
@@ -30,7 +30,7 @@ command {[VHS], [other commands]} locate ({
 ..
   
 varsio.set = bundleVAR = VHS = FULLSUDO.ATrun
-
+```
 # Usage
 
 The Usage is the following
