@@ -1,9 +1,7 @@
 # VHS Public 3.0
 This is the requirment for the System Varsio.
-Please note that this is a Read Only Project and changing it to a Read-Write is
-against the T.O.S.
 
-You can use this in your own project and reference to the contents but can not edit anything without contacting the developer.
+You can change this to fit your own program.  This is a third party framework to add external connection commands to your own terminal.  This is not to be used in any system default terminal.  In order to set change your permission to sudo at all times.
 
 # Usage
 
