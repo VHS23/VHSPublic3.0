@@ -9,9 +9,11 @@ You can change this to fit your own program.  This is a third party framework to
 
 In order to setup download the Rootfs.dmg.  You need to change this ot a read/write dmg by typing the following command,
 
-```cd (folder with rootfs.dmg)
+```cd (folder with rootfs.dmg)```
 
-hdiutil convert Rootfs.dmg -format UDRW -o RootfsRW.dmg```
+then
+
+```hdiutil convert Rootfs.dmg -format UDRW -o RootfsRW.dmg```
 
 Once its a read and write then use the different contents for different parts of your terminal. Example,
 
