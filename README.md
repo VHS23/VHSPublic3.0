@@ -9,8 +9,8 @@ You can change this to fit your own program.  This is a third party framework to
 
 In order to setup download the Rootfs.dmg.  You need to change this ot a read/write dmg by typing the following command,
 
-cd (folder with rootfs.dmg)
-hdiutil convert Rootfs.dmg -format UDRW -o RootfsRW.dmg
+```cd (folder with rootfs.dmg)
+hdiutil convert Rootfs.dmg -format UDRW -o RootfsRW.dmg```
 
 Once its a read and write then use the different contents for different parts of your terminal. Example,
 
@@ -35,15 +35,15 @@ varsio.set = bundleVAR = VHS = FULLSUDO.ATrun
 
 The Usage is the following
 
-./filesystem <Command> <Input> <Other>
+```./filesystem <Command> <Input> <Other>```
 
 For help on this project please input
 
-./filesystem -help -all
+```./filesystem -help -all```
 
 For updating the filesystem please imput
 
-./filesystem -update --check
+```./filesystem -update --check```
 
 Thank you for using VHS 3.0
 
