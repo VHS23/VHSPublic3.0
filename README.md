@@ -7,7 +7,7 @@ You can change this to fit your own program.  This is a third party framework to
 
 # Setup
 
-In order to setup download the Rootfs.dmg.  You need to change this ot a read/write dmg by typing the following command,
+In order to setup download the Rootfs.dmg.  You need to change this to a read/write dmg by typing the following command,
 
 ```cd (folder with rootfs.dmg)```
 
